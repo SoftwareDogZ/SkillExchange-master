@@ -22,7 +22,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.23000002" />
+        app:layout_constraintVertical_bias="0.26" />
 
 
     <LinearLayout
@@ -86,11 +86,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/edt_can"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.58000004" />
+        app:layout_constraintVertical_bias="0.53" />
 
     <EditText
         android:id="@+id/edt_can"
-        android:layout_width="267dp"
+        android:layout_width="337dp"
         android:layout_height="34dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
@@ -111,7 +111,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.572" />
+        app:layout_constraintVertical_bias="0.51" />
 
     <TextView
         android:id="@+id/txt_want"
@@ -124,11 +124,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/edt_want"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.65999997" />
+        app:layout_constraintVertical_bias="0.56" />
 
     <EditText
         android:id="@+id/edt_want"
-        android:layout_width="267dp"
+        android:layout_width="337dp"
         android:layout_height="34dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
@@ -148,7 +148,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.71000004" />
+        app:layout_constraintVertical_bias="0.6" />
 
     <Button
         android:id="@+id/btnjoinus"
@@ -168,7 +168,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.85" />
+        app:layout_constraintVertical_bias="0.68" />
 
     <TextView
         android:id="@+id/txt_welcome"
@@ -179,7 +179,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:fontFamily="casual"
-        android:text="Welcome to EX!"
+        android:text="Welcome Large"
         android:textColor="@color/colorAccent"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -187,7 +187,7 @@
         app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.060000002" />
+        app:layout_constraintVertical_bias="0.06999999" />
 
 
 </android.support.constraint.ConstraintLayout>
